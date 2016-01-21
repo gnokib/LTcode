@@ -16,7 +16,7 @@ public class Solution {
 	if (entry.size() == nums.length) {
 	    rst.add(new ArrayList<>(entry));
 	}	
-	for(int i = 0; i < nums.length; i++) {
+	for (int i = 0; i < nums.length; i++) {
 	    if (entry.contains(nums[i])) {
 		continue;
 	    }
