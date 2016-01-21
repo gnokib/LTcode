@@ -21,6 +21,5 @@ public class Solution {
 	    helper(rst, entry, n, k, i + 1);
 	    entry.remove(entry.size() - 1);
 	}
-	return rst;
     }    
 }
