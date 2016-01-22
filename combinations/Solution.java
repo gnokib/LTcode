@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Solution {
     public List<List<Integer>> combine(int n, int k) {
 	List<List<Integer>> rst = new ArrayList<>();
